@@ -1,7 +1,7 @@
 HOME DESKRIPSI
 
 JENIS BUKU
-- Romantis 
+- Romantis
 - Fantasi
 - Horor
 - Komedi
@@ -10,7 +10,7 @@ JENIS BUKU
 
 DESKRIPSI BUKU
 **Romantis
-1. 
+1.
 Deskripsi:
 
 2.
@@ -38,7 +38,7 @@ Deskripsi:
 Deskripsi:
 
 **Pengembangan Diri
-1. 
+1.
 Deskripsi:
 
 2.
