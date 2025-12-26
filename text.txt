@@ -1,7 +1,8 @@
 HOME DESKRIPSI
+Temukan berbagai buku pilihan dari fiksi, nonfiksi, hingga buku pengembangan diri.Koleksi terbaru kami dan temukan bacaan yang menemani setiap perjalanan inspirasimu.
 
 JENIS BUKU
-- Romantis 
+- Romantis
 - Fantasi
 - Horor
 - Komedi
@@ -11,20 +12,21 @@ JENIS BUKU
 DESKRIPSI BUKU
 **Romantis
 1. Twilight - Stephenie Mayer
-Deskripsi: Twilight adalah novel romansa karya Stephenie Meyer yang berkisah tentang hubungan asmara antara vampir dan manusia. Novel ini telah diadaptasi dalam bentuk layar lebar dengan judul yang sama. Novel ini menceritakan tentang Bella Swan seorang gadis asal Arizona yang pindah ke Forks untuk tinggal bersama ayahnya, Charlie Swan. Bella mendapat banyak perhatian dari para pemuda dan teman-teman baru di sekolah barunya, Forks High School.
+Sinopsis: T
 
 2. Septihan - Poppi Pertiwi
-Deskripsi: Septihan bercerita tentang kisah remaja yang dibalut dengan asmara dan persahabatan. Di sini ada dua tokoh utama, yaitu Septian Aidan Nugroho dan Jihan Halana. Septian adalah salah satu murid paling pintar di SMA Ganesha. Septian sendiri merupakan pribadi yang pendiam dan dingin. Namun, di balik sosoknya yang pendiam, Septian kerap menjadi murid kebanggaan dan kesayangan para guru di SMA Ganesha. Septian juga menjadi bendahara di geng Ravispa, kelompok yang berisikan murid-murid nakal dan pemberani di SMA Ganesha. Septian juga kerap mewakili SMA Ganesha di berbagai perlombaan dan menghasilkan prestasi yang patut untuk dibanggakan. Sedangkan Jihan Halana adalah sosok gadis yang ekspresif dan aktif di balik parasnya yang cantik dan memesona. Selain itu Jihan juga merupakan perempuan yang keras kepala, ini bisa dilihat dari usahanya selama hampir 3 tahun mengejar-ngejar cinta Septian. Pada intinya novel ini menceritakan usaha Jihan Halana yang aktif dan ekspresif untuk mendapatkan hati seorang Septian Aidan Nugroho yang dingin, cuek, dan jutek. Apakah mereka berdua akan berjodoh?
+Sinopsis:
 
 3. Pride & Prejudice - Jane Austen
-Deskripsi: Selama lebih dari 150 tahun, Pride and Prejudice tetap menjadi salah satu novel Inggris terpopuler
-“Seandainya aku tahu isi hatinya, semua akan jadi lebih mudah.”
-Elizabeth Bennet dan Fitzwilliam Darcy sama sekali tidak memiliki kecocokan bahkan sejak mereka belum saling mengenal. Elizabeth menilai Mr. Darcy sebagai pria yang sok, angkuh, dan mengesalkan, sementara Mr. Darcy menganggap Elizabeth tidak anggun dan terlalu sering berprasangka.
-Cukup lama mereka saling bermusuhan, bahkan sering kali melontarkan sindiran-sindiran pedas terhadap satu sama lain. Kebencian itu tanpa mereka sadari berangsur menjadi ketertarikan yang mendalam. Seiring dengan berjalannya waktu, Elizabeth melihat sisi lain dari Fitzwilliam Darcy, bahwa dia bukanlah sekadar pria arogan atau angkuh seperti yang selama ini Elizabeth sangka.
-Dalam Pride and Prejudice, Jane Austen menuangkan detail yang memikat mengenai kaum menengah ke atas pada abad ke-18. Karakter-karakternya yang memukau membuat novel ini menjadi salah satu roman paling populer sepanjang masa
-"Miss Austen tentu merupakan penulis yang luar biasa. Dia melakukan segalanya dengan hebat. Hingga saat ini, karyanya sama sekali tidak bercela." —Anthony Trollope
+Sinopsis: 
 
-4. 
+4. Pergi - Tere Liye
+Sinopsis: 
+
+<<<<<<< HEAD
+=======
+4.
+>>>>>>> deb806a18ee844534db56e4ced4cb70d012fbee6
 **Fantasi
 1.
 Deskripsi:
