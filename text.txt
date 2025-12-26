@@ -1,7 +1,8 @@
 HOME DESKRIPSI
+Temukan berbagai buku pilihan dari fiksi, nonfiksi, hingga buku pengembangan diri.Koleksi terbaru kami dan temukan bacaan yang menemani setiap perjalanan inspirasimu.
 
 JENIS BUKU
-- Romantis 
+- Romantis
 - Fantasi
 - Horor
 - Komedi
@@ -22,6 +23,10 @@ Sinopsis:
 4. Pergi - Tere Liye
 Sinopsis: 
 
+<<<<<<< HEAD
+=======
+4.
+>>>>>>> deb806a18ee844534db56e4ced4cb70d012fbee6
 **Fantasi
 1.
 Deskripsi:
