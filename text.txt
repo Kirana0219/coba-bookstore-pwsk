@@ -12,7 +12,7 @@ JENIS BUKU
 DESKRIPSI BUKU
 **Romantis
 1. Twilight - Stephenie Mayer
-Sinopsis: T
+Sinopsis: 
 
 2. Septihan - Poppi Pertiwi
 Sinopsis:
@@ -23,10 +23,7 @@ Sinopsis:
 4. Pergi - Tere Liye
 Sinopsis: 
 
-<<<<<<< HEAD
-=======
 4.
->>>>>>> deb806a18ee844534db56e4ced4cb70d012fbee6
 **Fantasi
 1.
 Deskripsi:
@@ -35,11 +32,57 @@ Deskripsi:
 Deskripsi:
 
 **Horor
-1.
-Deskripsi:
+1.Annabelle Comes Home
+Deskripsi: 
+Kisah ini berasal dari skenario film orisinal yang terinspirasi oleh kasus nyata yang ditangani oleh Ed dan Lorraine Warren. Cerita berfokus pada boneka Annabelle yang dirasuki entitas jahat dan disimpan di ruang artefak terkutuk milik keluarga Warren, namun justru membangkitkan kekuatan jahat lain di dalam rumah.
 
-2.
+2. Dead of Night
 Deskripsi:
+Dead of Night bukan merupakan satu buku tunggal yang terkenal, melainkan judul yang sering digunakan dalam berbagai antologi cerita horor. Umumnya, kisah ini menggambarkan suasana malam yang mencekam, di mana ketakutan muncul melalui peristiwa-peristiwa supernatural, mimpi buruk, dan teror psikologis yang dialami tokoh-tokohnya.
+
+3. Hunger Games
+Deskripsi: 
+The Hunger Games adalah novel distopia karya Suzanne Collins. Cerita berlatar di negara Panem, di mana setiap tahun dua remaja dari setiap distrik dipaksa bertarung hingga mati dalam sebuah permainan kejam sebagai bentuk kontrol pemerintah. Unsur horor psikologis muncul melalui kekerasan, ketidakadilan, dan trauma yang dialami para peserta.
+
+4. Insidious
+Deskripsi:
+Kisah ini merupakan cerita film orisinal yang mengangkat konsep astral projection dan dimensi lain bernama The Further. Cerita berpusat pada sebuah keluarga yang diteror oleh makhluk halus setelah anak mereka terjebak di alam astral.
+
+5. Journal of Terror
+Deskripsi:
+Journal of Terror umumnya merujuk pada kumpulan catatan atau cerita horor berbentuk jurnal, baik fiksi maupun semi-fiksi. Cerita disampaikan melalui sudut pandang pribadi penulis jurnal yang mencatat pengalaman mistis, teror psikologis, dan kejadian supernatural yang semakin lama semakin tidak terkendali.
+
+6. Ketika Ibu datang
+Deskripsi:
+Ketika Ibu Datang merupakan cerita horor Indonesia yang menekankan teror emosional dan psikologis. Kisah ini menggambarkan kembalinya sosok ibu yang telah meninggal dalam wujud yang tidak wajar, memunculkan rasa takut, trauma masa lalu, dan konflik batin dalam keluarga.
+
+7. Perias Mayit
+Deskripsi:
+Perias Mayit adalah novel horor Indonesia yang mengangkat profesi perias jenazah. Cerita ini menyoroti pengalaman mistis sang tokoh utama saat merias mayat-mayat dengan kematian tidak wajar, di mana arwah gentayangan, kutukan, dan rahasia kelam orang mati mulai mengganggu kehidupan nyata.
+
+8. Pet Sematary
+Deskripsi:
+Pet Sematary adalah novel horor klasik karya Stephen King. Cerita mengikuti keluarga Creed yang menemukan pemakaman misterius dengan kekuatan untuk menghidupkan kembali makhluk mati. Namun, kebangkitan tersebut membawa konsekuensi mengerikan dan mempertanyakan batas moral antara hidup dan mati.
+
+9. Pocong itu Lastri
+Deskripsi:
+Pocong Itu Lastri adalah cerita horor lokal Indonesia yang memadukan mitos pocong dengan tragedi manusia. Kisah ini mengungkap sosok Lastri yang meninggal secara tidak wajar dan kembali sebagai pocong untuk menuntut keadilan atas pengkhianatan dan penderitaan yang dialaminya semasa hidup.
+
+10. Teka-Teki Rumah Aneh
+Deskripsi:
+Teka-Teki Rumah Aneh merupakan cerita misteri-horor yang berfokus pada sebuah rumah dengan struktur dan kejadian tidak masuk akal. Setiap ruangan menyimpan teka-teki dan teror tersendiri, memaksa tokoh utama mengungkap rahasia kelam yang terpendam di dalam bangunan tersebut.
+
+11. The Exorcist
+Deskripsi:
+The Exorcist adalah novel horor karya William Peter Blatty. Cerita berpusat pada seorang gadis kecil yang kerasukan iblis dan upaya dua pastor untuk melakukan ritual pengusiran setan. Novel ini mengeksplorasi konflik iman, sains, dan kekuatan kejahatan absolut.
+
+12. The Living Hunger
+Deskripsi:
+The Living Hunger umumnya merujuk pada cerita horor bertema kelaparan metaforis, di mana rasa lapar menjadi simbol kekosongan jiwa, kutukan, atau makhluk yang tidak pernah puas. Cerita ini menekankan horor eksistensial dan penderitaan manusia yang terus berulang.
+
+13. Uzumaki
+Deskripsi:
+Uzumaki adalah manga horor karya Junji Ito. Cerita berlatar di kota Kurouzu-cho yang terkutuk oleh bentuk spiral. Kutukan ini perlahan memengaruhi penduduknya secara fisik dan mental, menghadirkan horor kosmik, kegilaan, dan kehancuran yang tak terelakkan.
 
 **Komedi
 1.
