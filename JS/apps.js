@@ -15,46 +15,57 @@ searchButton.addEventListener("click", () => {
   }
 });
 
-/*=============== ADD SHADOW HEADER ===============*/
-const shadowHeader = () => {
-  const header = document.getElementById("header");
-  this.scrollY >= 50 ? header.classList.add("shadow-header") : header.classList.remove("shadow-header");
-}
-window.addEventListener("scroll", shadowHeader);
 
-/*=============== SHOW SCROLL UP ===============*/ 
-const scrollUp = () => {
-  const scrollUp = document.getElementById("scroll-up");
-  this.scrollY >= 350 ? scrollUp.classList.add("show-scroll") : scrollUp.classList.remove("show-scroll");
-}
-window.addEventListener("scroll", scrollUp);
+// ================= FILTER BUKU =================
+document.addEventListener("DOMContentLoaded", () => {
 
-/*=============== DARK LIGHT THEME ===============*/ 
-const themeButton = document.getElementById('theme-button')
-const darkTheme = 'dark-theme'
-const iconTheme = 'ri-sun-line'
+  /* ================= FILTER KATEGORI ================= */
+  const categoryFilter = document.getElementById("categoryFilter");
+  const bookCards = document.querySelectorAll(".book-card");
 
-// Previously selected topic (if user selected)
-const selectedTheme = localStorage.getItem('selected-theme')
-const selectedIcon = localStorage.getItem('selected-icon')
+  categoryFilter.addEventListener("change", () => {
+    const selectedCategory = categoryFilter.value;
 
-// We obtain the current theme that the interface has by validating the dark-theme class
-const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light'
-const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'ri-moon-line' : 'ri-sun-line'
+    bookCards.forEach(card => {
+      const cardCategory = card.getAttribute("data-category");
 
-// We validate if the user previously chose a topic
-if (selectedTheme) {
-  // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
-  document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
-  themeButton.classList[selectedIcon === 'ri-moon-line' ? 'add' : 'remove'](iconTheme)
-}
+      if (selectedCategory === "all" || cardCategory === selectedCategory) {
+        card.style.display = "flex";
+      } else {
+        card.style.display = "none";
+      }
+    });
+  });
 
-// Activate / deactivate the theme manually with the button
-themeButton.addEventListener('click', () => {
-    // Add or remove the dark / icon theme
-    document.body.classList.toggle(darkTheme)
-    themeButton.classList.toggle(iconTheme)
-    // We save the theme and the current icon that the user chose
-    localStorage.setItem('selected-theme', getCurrentTheme())
-    localStorage.setItem('selected-icon', getCurrentIcon())
-})
+  /* ================= MODAL BUKU ================= */
+  const modal = document.getElementById("bookModal");
+  const modalTitle = document.getElementById("modalTitle");
+  const modalAuthor = document.getElementById("modalAuthor");
+  const modalDesc = document.getElementById("modalDesc");
+  const modalPrice = document.getElementById("modalPrice");
+  const closeBtn = document.querySelector(".close-btn");
+
+  bookCards.forEach(card => {
+    card.addEventListener("click", () => {
+
+      modalTitle.textContent = card.querySelector(".book-title").textContent;
+      modalAuthor.textContent = "Penulis: " + card.querySelector(".book-author").textContent;
+      modalDesc.textContent = card.querySelector(".book-desc").textContent;
+      modalPrice.textContent = "Harga: " + card.querySelector(".book-price").textContent;
+
+      modal.style.display = "flex";
+    });
+  });
+
+  closeBtn.addEventListener("click", () => {
+    modal.style.display = "none";
+  });
+
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+
+});
+
