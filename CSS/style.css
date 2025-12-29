@@ -581,11 +581,14 @@ img {
 }
 
 /*=============== NEW ARRIVAL ===============*/
-
+.container-new-arrival{
+  margin: 0 96px;
+}
 
 /*=============== RECOMMENDATION ===============*/
-
-
+.container-recomendation{
+  margin: 0 96px;
+}
 /* Swiper class */
 
 
