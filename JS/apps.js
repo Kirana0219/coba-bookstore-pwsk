@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /* ================= FILTER KATEGORI ================= */
 const categoryFilter = document.getElementById("categoryFilter");
-const bookCards = document.querySelectorAll("#new .book-card");
+const bookCards = document.querySelectorAll("#new.book-card");
 const title = document.getElementById("bookTitle");
 
 categoryFilter.addEventListener("click", (e) => {
