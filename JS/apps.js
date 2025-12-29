@@ -13,3 +13,23 @@ searchButton.addEventListener("click", () => {
     logoText.classList.remove("hidden"); // tampilkan lagi
   }
 });
+
+// Filter buku berdasarkan kategori
+document.addEventListener("DOMContentLoaded", function () {
+  const categoryFilter = document.getElementById("categoryFilter");
+  const bookCards = document.querySelectorAll(".book-card");
+
+  categoryFilter.addEventListener("change", function () {
+    const selectedCategory = this.value;
+
+    bookCards.forEach(card => {
+      const cardCategory = card.getAttribute("data-category");
+
+      if (selectedCategory === "all" || cardCategory === selectedCategory) {
+        card.style.display = "flex";
+      } else {
+        card.style.display = "none";
+      }
+    });
+  });
+});
