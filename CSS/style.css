@@ -449,16 +449,19 @@ body.dark-theme {
 
 /*=============== MODAL BOOK DETAIL ===============*/
 .modal {
-  display: none;
+  display: none; /* modal BENAR-BENAR mati saat awal */
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.6);
   z-index: 999;
-
-  display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.modal.show {
+  display: flex;
+}
+
 
 .modal-content {
   background-color: var(--body-color);
