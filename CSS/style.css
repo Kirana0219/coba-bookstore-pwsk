@@ -340,6 +340,9 @@ body.dark-theme {
 .hidden {
   display: none;
 }
+.modal.show {
+  display: flex;
+}
 
 
 /* Dropdown filter */
@@ -397,6 +400,7 @@ body.dark-theme {
   margin-bottom: 0.25rem;
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
+  
 
 }
 
