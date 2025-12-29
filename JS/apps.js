@@ -15,8 +15,6 @@ searchButton.addEventListener("click", () => {
   }
 });
 
-
-// ================= FILTER BUKU =================
 document.addEventListener("DOMContentLoaded", () => {
 
   /* ================= FILTER KATEGORI ================= */
