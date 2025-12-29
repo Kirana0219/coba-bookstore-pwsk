@@ -19,7 +19,8 @@
                <span class="logo-text">Kiyuti Bookstore</span>
             </a>
 
-            <div class="nav-menu">
+
+               <div class="nav-menu">
                <ul class="nav-list">
                   <li class="nav-item"> 
                      <a href="#home" class="nav-link">
@@ -35,14 +36,14 @@
                      </a>
                   </li>
 
-                  <li class="nav-item hide-mobile"> 
+                  <li class="nav-item"> 
                      <a href="#new" class="nav-link">
                         <i class="ri-bookmark-line"></i>
                         <span>Buku Terbaru</span>
                      </a>
                   </li>
 
-                  <li class="nav-item hide-mobile"> 
+                  <li class="nav-item"> 
                      <a href="#rekomendasi" class="nav-link">
                         <i class="ri-bard-line"></i>
                         <span>Rekomendasi</span>
@@ -50,7 +51,7 @@
                   </li>
 
                   <li class="nav-item"> 
-                     <a href="#testimoni" class="nav-link">
+                     <a href="#testimonial" class="nav-link">
                         <i class="ri-chat-1-line"></i>
                         <span>Testimoni</span>
                      </a>
@@ -76,10 +77,20 @@
                <i class="ri-user-line" id="user-button"></i>
 
                <!-- Theme Button -->
-               <i class="ri-moon-line" id="theme-button"></i>
-            </div>
+               <i class="ri-moon-line"></i>
+               </div>
          </nav>
       </header>
+
+      <!--==================== SEARCH ====================-->
+      <!-- <div class="search" id="search-content">
+         <form action="" class="search-form">
+            <i class="ri-search-line search-icon"></i>
+            <input type="search" placeholder="Mau cari buku apa?" class="search-input">
+         </form>
+
+         <i class="ri-close-line search-close" id="search-close"></i>
+      </div> -->
 
       <!--==================== MAIN ====================-->
       <main class="main">
@@ -127,44 +138,43 @@
                   
                   <!-- 1. Twilight -->
                   <div class="book-card" data-category="romantis">
-                     
                      <img src="MEDIA/romantis_TWILIGHT.jpg" alt="Twilight" class="book-img">
+
                      <h3 class="book-title">Twilight</h3>
                      <p class="book-author">Stephenie Meyer</p>
-                     
+
                      <p class="book-desc">
                         Isabella Swan pindah ke Forks dan bertemu Edward Cullen, cowok misterius yang memesona dan menyimpan rahasia kelam sebagai vampir. Meski sadar akan bahaya yang mengintai, Bella tetap jatuh cinta padanya. Hubungan mereka berkembang menjadi kisah cinta terlarang yang penuh risiko, antara hasrat, bahaya, dan pilihan yang tak bisa ditarik kembali.
                      </p>
-                     
-                     <p class="book-price">Rp120.000</p>
 
+                     <p class="book-price">Rp120.000</p>
                   </div>
 
                   <!-- 2. Septihan -->
                   <div class="book-card" data-category="romantis">
-                     
                      <img src="MEDIA/romantis_SEPTIHAN.jpg" alt="Septihan" class="book-img">
+
                      <h3 class="book-title">Septihan</h3>
                      <p class="book-author">Poppi Pertiwi</p>
-                     
+
                      <p class="book-desc">
                         Jihan Halana, gadis ceria dan ekspresif, jatuh cinta pada Septian Aidan Nugroho, siswa berprestasi yang pendiam dan menutup diri dari perasaan. Meski berkali-kali ditolak dan disakiti, Jihan tetap bertahan dengan ketulusan. Perlahan, perjuangannya meluluhkan hati Septian, hingga sebuah kesalahan besar mengubah segalanya dan membuat Jihan membencinya. Kisah ini tentang cinta remaja, persahabatan, dan harapan akan masa depan yang diuji.
                      </p>
-                     
+
                      <p class="book-price">Rp99.000</p>
                   </div>
 
                   <!-- 3. Pride & Prejudice -->
                   <div class="book-card" data-category="romantis">
-                     
                      <img src="MEDIA/romantis_PRIDE & PREJUDICE.jpg" alt="Pride & Prejudice" class="book-img">
+
                      <h3 class="book-title">Pride &amp; Prejudice</h3>
                      <p class="book-author">Jane Austen</p>
-                     
+
                      <p class="book-desc">
                         Novel ini mengikuti kisah Elizabeth Bennet, perempuan cerdas dan mandiri, yang hidup di tengah tekanan sosial soal pernikahan dan status. Pertemuannya dengan Mr. Darcy, pria kaya namun terkesan sombong, diawali oleh kesalahpahaman dan prasangka. Seiring waktu, Elizabeth dan Darcy belajar memahami satu sama lain, menghadapi ego, kelas sosial, dan perasaan mereka sendiri. Pride and Prejudice adalah kisah tentang cinta, harga diri, dan proses melihat seseorang apa adanya.
                      </p>
-                     
+
                      <p class="book-price">Rp135.000</p>
                   </div>
 
@@ -930,23 +940,10 @@
          <section class="new-arrival-section" id="new">
             
          </section>
-
-         <!--==================== MODAL ====================-->
-         <div class="modal" id="bookModal">
-            <div class="modal-content">
-               <span class="close-btn">&times;</span>
-
-               <h2 id="modalTitle"></h2>
-               <p id="modalAuthor"></p>
-               <p id="modalDesc"></p>
-               <p id="modalPrice"></p>
-            </div>
-         </div>
-
          
          <!--==================== TESTIMONIAL ====================-->
          <section class="testimonial-section" id="testimonial">
-            <h2 class="testimonial-title">Apa Kata Mereka?</h2>
+            <h2 class="testimonial-title">Apa Kata Mereka</h2>
             <div class="testimonial-content">
                <article class="testimonial_card">
                   <div class="testimonial_image">
@@ -1026,7 +1023,7 @@
                            <i class="ri-star-fill"></i>
                            <i class="ri-star-fill"></i>
                         </div>
-                        <h3 class="rate_num">5.0</h3>
+                      <h3 class="rate_num">5.0</h3>
                      </div>
                   <p class="testimonial_desc">
                      Sudah beberapa kali beli buku di Kiyuti Bookstore dan belum pernah kecewa. Bukunya selalu sesuai pesanan dan kondisinya sangat baik. Cocok buat yang suka beli buku online tanpa ribet.
@@ -1145,13 +1142,11 @@
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-
+         
       </footer>
 
       <!--========== SCROLL UP ==========-->
-      <a href="#" class="scrollup" id="scroll-up">
-         <i class="ri-arrow-up-line"></i>
-      </a>
+      
 
       <!--=============== SCROLLREVEAL ===============-->
       <script src=""></script>
