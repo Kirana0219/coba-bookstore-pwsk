@@ -36,13 +36,14 @@
                         <i class="ri-arrow-down-s-line"></i>
                      </a>
 
-                     <ul class="dropdown-menu">
-                        <li><a href="#">Romantis</a></li>
-                        <li><a href="#">Fantasi</a></li>
-                        <li><a href="#">Horor</a></li>
-                        <li><a href="#">Komedi</a></li>
-                        <li><a href="#">Pengembangan Diri</a></li>
-                        <li><a href="#">Komik</a></li>
+                     <ul class="dropdown-menu" id="categoryFilter">
+                        <li><a href="#" data-value="all">Semua</a></li>
+                        <li><a href="#" data-value="romantis">Romantis</a></li>
+                        <li><a href="#" data-value="fantasi">Fantasi</a></li>
+                        <li><a href="#" data-value="horor">Horor</a></li>
+                        <li><a href="#" data-value="komedi">Komedi</a></li>
+                        <li><a href="#" data-value="pengembangan-diri">Pengembangan Diri</a></li>
+                        <li><a href="#" data-value="komik">Komik</a></li>
                      </ul>
                   </li>
 
@@ -130,7 +131,7 @@
          <!--==================== GENRE ====================-->
          <section id="books">
 
-         <!-- DROPDOWN -->
+         <!-- DROPDOWN
          <select id="categoryFilter" onchange="filterBooks(this.value)">
             <option value="all">Semua Kategori</option>
             <option value="romantis">Romantis</option>
@@ -139,10 +140,10 @@
             <option value="komedi">Komedi</option>
             <option value="pengembangan-diri">Pengembangan Diri</option>
             <option value="komik">Komik</option>
-         </select>
+         </select> -->
 
             <section class="new section" id="new">
-               <h2 class="section-title">Daftar Buku</h2>
+               <h2 class="section-title" id="bookTitle">Daftar Buku</h2>
 
                <div class="book-container grid">
                   
