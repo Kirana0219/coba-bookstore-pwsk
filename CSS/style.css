@@ -295,40 +295,90 @@ img {
 /* Swiper class */
 
 
-/*=============== BUTTON ===============*/
+/*=============== GENRE ===============*/
 
 
-/*=============== SERVICES ===============*/
+/*=============== NEW ARRIVAL ===============*/
 
 
-/*=============== FEATURED ===============*/
+/*=============== RECOMMENDATION ===============*/
 
 
 /* Swiper class */
 
 
-/*=============== DISCOUNT ===============*/
-
-
-/*=============== NEW ===============*/
-
-
-/*=============== JOIN ===============*/
-
-
 /*=============== TESTIMONIAL ===============*/
+.testimonial-section{
+  position: relative;
+  max-width: 1120px;
+  /* height: 100vh; */
+  padding-block: 5rem;
+  display: grid;
+  align-items: center;
+  row-gap: 2rem;
+  overflow: hidden;
+}
+
+.testimonial-section-title{
+  text-align: center;
+  font-size: var(--h1-font-size);
+  font-family: var(--body-font);
+  margin-bottom: 2rem;
+}
+
+.testimonial_card{
+  width: 360px;
+  background-color: var(--container-color);
+  box-shadow: 0 12px 24px hsla(220, 100%, 20%, 0.1);
+  padding: 1.2rem 1rem 2rem;
+  margin-inline: 1rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.testimonial_image{
+  width: 80px;
+  border-radius: 50%;
+  overflow: hidden ;
+  box-shadow: 0px 4px 12px hsla(220, 100%, 20%, 0.3);
+  margin: 0 auto 0.5rem;
+}
+
+.testimonial_img{
+  transition: transform 0.4s;
+}
+
+.testimonial_name .rate_num{
+  font: 500 var(--h3-font-size);
+  font-family: var(--body-font);
+  color: var(--first-color);
+}
+
+.testimonial_name{
+  margin-bottom: 1.5rem;
+}
+
+.testimonial_rating{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5rem;
+  margin-bottom: 0.5rem;
+}
+
+.star{
+  color: #FFD700;
+  font-size: 1rem;
+}
+
+
+
+
+/*=============== CONTACT AND BUY===============*/
 
 
 /*=============== FOOTER ===============*/
 
-
-/*=============== SCROLL BAR ===============*/
-
-
-/*=============== SCROLL UP ===============*/
-
-
-/* Show Scroll Up */
 
 
 /*=============== BREAKPOINTS ===============*/
