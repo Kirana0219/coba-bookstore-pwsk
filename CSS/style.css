@@ -152,10 +152,6 @@ img {
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
-.container {
-  max-width: 1220px;
-  margin-inline: 1.5rem;
-}
 
 .grid {
   display: grid;
@@ -367,16 +363,10 @@ img {
   pointer-events: none;
 }
 
-/*=============== LOGIN ===============*/
-
-
-/* Show login */
-
 
 /*=============== HOME ===============*/
-
 .home-section{
-  margin: 0 75px;
+  margin: 0 96px;
 }
 
 #new{
@@ -393,7 +383,6 @@ img {
 }
 
 .book-card::after {
-  /* content: "Klik untuk detail"; */
   position: absolute;
   bottom: 0px;
   left: 50%;
@@ -423,7 +412,6 @@ img {
 }
 
 /*=============== GENRE / DAFTAR BUKU ===============*/
-
 .hidden {
   display: none;
 }
