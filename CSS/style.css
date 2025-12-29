@@ -150,6 +150,10 @@ img {
   background: #3B3B3B;
 }
 
+.dark-theme .search-input {
+  color: var(--text-color);
+}
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 
 .grid {
@@ -423,7 +427,7 @@ img {
   color: var(--first-color);
   font-weight: var(--font-semi-bold);
   border-radius: 2rem;
-  padding: 1rem 0.5rem;
+  padding: 1rem 1rem;
   transition: box-shadow .3s;
 }
 
