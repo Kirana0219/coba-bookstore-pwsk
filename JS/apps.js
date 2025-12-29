@@ -9,7 +9,7 @@ searchButton.addEventListener("click", () => {
 
   if (searchWrapper.classList.contains("active")) {
     searchInput.focus();
-    logoText.classList.add("hidden"); // sembunyikan teks
+    logoText.classList.add("hidden"); //sembunyikann teks
   } else {
     logoText.classList.remove("hidden"); // tampilkan lagi
   }

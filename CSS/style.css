@@ -9,7 +9,7 @@
   /*========== Colors ==========*/
   --first-color: #C47BE4;
   --title-color: #1E1E1E;
-  --text-color: #818181;
+  --text-color: #a4a4a4;
   --border-color: #E8E8E8;
   --white-color: #FAFAFA;
   --body-color: #FFFFFF;
@@ -307,28 +307,187 @@ body.dark-theme {
 /* Swiper class */
 
 
-/*=============== BUTTON ===============*/
+
+/*=============== GENRE / DAFTAR BUKU ===============*/
+
+/* Dropdown filter */
+#categoryFilter {
+  display: block;
+  margin: 0 auto 2.5rem auto;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
+  background-color: var(--container-color);
+  font-size: var(--normal-font-size);
+  color: var(--title-color);
+  cursor: pointer;
+}
+
+/* Container buku */
+.book-container {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+/* Card buku */
+.book-card {
+  background-color: var(--container-color);
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Gambar buku */
+.book-img {
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  height: 260px;
+}
+
+/* Judul buku */
+.book-title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.25rem;
+}
+
+/* Penulis */
+.book-author {
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  margin-bottom: 0.75rem;
+}
+
+/* Deskripsi */
+.book-desc {
+  font-size: var(--small-font-size);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+/* Harga */
+.book-price {
+  margin-top: auto;
+  font-weight: var(--font-semi-bold);
+  color: var(--first-color);
+}
 
 
-/*=============== SERVICES ===============*/
+
+/*=============== GENRE ===============*/
 
 
-/*=============== FEATURED ===============*/
+/*=============== NEW ARRIVAL ===============*/
+
+
+/*=============== RECOMMENDATION ===============*/
 
 
 /* Swiper class */
 
 
-/*=============== DISCOUNT ===============*/
-
-
-/*=============== NEW ===============*/
-
-
-/*=============== JOIN ===============*/
-
-
 /*=============== TESTIMONIAL ===============*/
+.testimonial-section{
+  position: relative;
+  max-width: 1120px;
+  /* height: 100vh; */
+  padding-block: 5rem;
+  display: grid;
+  align-items: center;
+  row-gap: 2rem;
+  overflow: hidden;
+}
+
+.testimonial-section-title{
+  text-align: center;
+  font-size: var(--h1-font-size);
+  font-family: var(--body-font);
+  margin-bottom: 2rem;
+}
+
+.testimonial_card{
+  width: 380px;
+  background-color: var(--container-color);
+  box-shadow: 0 12px 24px hsla(220, 100%, 20%, 0.1);
+  padding: 1.2rem 1rem 2rem;
+  margin-inline: 1rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.testimonial_image{
+  width: 80px;
+  border-radius: 50%;
+  overflow: hidden ;
+  box-shadow: 0px 4px 12px hsla(220, 100%, 20%, 0.3);
+  margin: 1rem auto 1rem;
+}
+
+.testimonial_img{
+  transition: transform 0.4s;
+}
+
+.rate_num{
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  color: var(--text-color)
+}
+
+.testimonial_name{
+  color: var(--first-color);
+  font-family: var(--body-font);
+}
+
+.testimonial_rating{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.star{
+  display: flex;
+  column-gap: 0.25rem;
+}
+
+.star i{
+  color: #FFD700;
+  font-size: 1rem;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.testimonial_desc{
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+}
+
+.testimonial_card:hover .testimonial_img{
+  transform: scale(1.2);
+}
+
+.star i:hover{
+  transform: scale(1.3);
+}
+
+.testimonial-content{
+  width: max-content;
+  display: flex;
+}
+
+
+
+/*=============== CONTACT AND BUY===============*/
 
 
 /*=============== FOOTER ===============*/
