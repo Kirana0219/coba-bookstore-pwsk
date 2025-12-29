@@ -465,8 +465,7 @@ body.dark-theme {
   margin-bottom: 0.25rem;
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
-  
-
+  font-family: var(--body-font);
 }
 
 /* Penulis */
@@ -474,6 +473,7 @@ body.dark-theme {
   font-size: var(--small-font-size);
   color: var(--text-color);
   margin-bottom: 0.75rem;
+  font-family: var(--body-font);
 }
 
 /* Deskripsi */
@@ -482,6 +482,8 @@ body.dark-theme {
   line-height: 1.6;
   margin-bottom: 1rem;
   color: var(--text-color);
+  font-family: var(--body-font);
+  text-align: justify;
 }
 
 /* Harga */
@@ -517,6 +519,7 @@ body.dark-theme {
   position: relative;
   max-height: 80vh;
   overflow-y: auto;
+  text-align: justify;
 }
 
 .close-btn {
@@ -552,7 +555,7 @@ body.dark-theme {
 }
 
 .testimonial-title{
-  font-size: var(--h1-font-size);
+  font-size: var(--h2-font-size);
   font-family: var(--body-font);
   margin-bottom: 1rem;
 }
