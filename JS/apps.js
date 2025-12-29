@@ -46,23 +46,47 @@ themeButton.addEventListener('click', () => {
 })
 document.addEventListener("DOMContentLoaded", () => {
 
-  /* ================= FILTER KATEGORI ================= */
-  const categoryFilter = document.getElementById("categoryFilter");
-  const bookCards = document.querySelectorAll(".book-card");
+/* ================= FILTER KATEGORI ================= */
+const categoryFilter = document.getElementById("categoryFilter");
+const bookCards = document.querySelectorAll(".book-card");
+const title = document.getElementById("bookTitle");
 
-  categoryFilter.addEventListener("change", () => {
-    const selectedCategory = categoryFilter.value;
+categoryFilter.addEventListener("click", (e) => {
+  e.preventDefault();
 
-    bookCards.forEach(card => {
-      const cardCategory = card.getAttribute("data-category");
+  if (e.target.tagName !== "A") return;
 
-      if (selectedCategory === "all" || cardCategory === selectedCategory) {
-        card.style.display = "flex";
-      } else {
-        card.style.display = "none";
-      }
-    });
+  const selectedCategory = e.target.dataset.value;
+
+  // filter buku
+  bookCards.forEach(card => {
+    const cardCategory = card.dataset.category;
+
+    if (selectedCategory === "all" || cardCategory === selectedCategory) {
+      card.style.display = "flex";
+    } else {
+      card.style.display = "none";
+    }
   });
+
+  // update judul
+  updateTitle(selectedCategory);
+});
+
+function updateTitle(category) {
+  const titles = {
+    all: "Daftar Buku",
+    romantis: "Buku Romantis",
+    fantasi: "Buku Fantasi",
+    horor: "Buku Horor",
+    komedi: "Buku Komedi",
+    "pengembangan-diri": "Buku Pengembangan Diri",
+    komik: "Buku Komik"
+  };
+
+  title.textContent = titles[category] || "Daftar Buku";
+}
+
 
   /* ================= MODAL BUKU ================= */
   const modal = document.getElementById("bookModal");
