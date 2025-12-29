@@ -35,3 +35,32 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+// ==================== MODAL DETAIL BUKU =================
+const modal = document.getElementById("bookModal");
+const modalTitle = document.getElementById("modalTitle");
+const modalAuthor = document.getElementById("modalAuthor");
+const modalDesc = document.getElementById("modalDesc");
+const modalPrice = document.getElementById("modalPrice");
+const closeBtn = document.querySelector(".close-btn");
+
+document.querySelectorAll(".book-card").forEach(card => {
+  card.addEventListener("click", () => {
+    modalTitle.textContent = card.dataset.title;
+    modalAuthor.textContent = "Penulis: " + card.dataset.author;
+    modalDesc.textContent = card.dataset.desc;
+    modalPrice.textContent = "Harga: " + card.dataset.price;
+
+    modal.style.display = "flex";
+  });
+});
+
+closeBtn.addEventListener("click", () => {
+  modal.style.display = "none";
+});
+
+window.addEventListener("click", e => {
+  if (e.target === modal) {
+    modal.style.display = "none";
+  }
+});
