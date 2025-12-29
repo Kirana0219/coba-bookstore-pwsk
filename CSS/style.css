@@ -477,8 +477,10 @@ img {
   font-size: var(--h3-font-size);
   margin-bottom: 0.2rem;
   color: var(--title-color);
-  font-weight: var(--font-semi-bold);
   font-family: var(--body-font);
+  font-weight: bold;
+  line-height: 1.4;
+  max-width: 16ch;
 }
 
 /* Penulis */
@@ -570,6 +572,7 @@ img {
 
 /*=============== NEW ARRIVAL ===============*/
 .container-new-arrival{
+  
   margin: 0 96px;
 }
 
@@ -666,7 +669,7 @@ img {
 .testimonial-section{
   position: relative;
   /* height: 100vh; */
-  padding-block: 5rem;
+  padding-block: 5rem 0px;
   display: grid;
   align-items: center;
   row-gap: 1rem;
