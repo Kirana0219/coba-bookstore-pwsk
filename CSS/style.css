@@ -385,20 +385,18 @@ img {
 /*=============== TESTIMONIAL ===============*/
 .testimonial-section{
   position: relative;
-  max-width: 1120px;
   /* height: 100vh; */
   padding-block: 5rem;
   display: grid;
   align-items: center;
-  row-gap: 2rem;
+  row-gap: 1rem;
   overflow: hidden;
 }
 
-.testimonial-section-title{
-  text-align: center;
+.testimonial-title{
   font-size: var(--h1-font-size);
   font-family: var(--body-font);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .testimonial_card{
@@ -409,6 +407,8 @@ img {
   margin-inline: 1rem;
   border-radius: 2rem;
   text-align: center;
+  transition: 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 .testimonial_image{
@@ -460,8 +460,12 @@ img {
   color: var(--text-color);
 }
 
-.testimonial_card:hover .testimonial_img{
+.testimonial_img:hover{
   transform: scale(1.2);
+}
+
+.testimonial_card:hover{
+  transform: translateY(-10px);
 }
 
 .star i:hover{
@@ -469,11 +473,8 @@ img {
 }
 
 .testimonial-content{
-  width: max-content;
   display: flex;
 }
-
-
 
 /*=============== CONTACT AND BUY===============*/
 
