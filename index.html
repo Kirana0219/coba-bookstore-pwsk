@@ -1199,7 +1199,7 @@
          
          <!--==================== TESTIMONIAL ====================-->
          <section class="testimonial-section" id="testimonial">
-            <h2 class="testimonial-title">Apa Kata Mereka</h2>
+            <h2 class="testimonial-title">Apa Kata Mereka?</h2>
             <div class="testimonial-content">
                <article class="testimonial_card">
                   <div class="testimonial_image">
@@ -1392,7 +1392,38 @@
             </section>
          <!--==================== CONTACT AND BUY ====================-->
          <section class="contact-and-buy-section" id="buy">
+            <h2>Form Pemesanan Produk</h2>
+            <form action="" id="orderForm">
+               <div class="form-group">
+                  <label for="name">Nama Lengkap</label>
+                  <input type="text" id="name" name="name" placeholder="Masukan nama lengkap anda" required>
+               </div>
+               <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="Masukan email anda" required>
+               </div>
+               <div class="form-group">
+                  <label for="category">Kategori Buku</label>
+                  <select id="category" name="category" required>
+                     <option value="all-category">Semua</option>
+                     <option value="romance-category">Romantis</option>
+                     <option value="horor-category">Horor</option>
+                     <option value="comedy-category">Komedi</option>
+                     <option value="pengembangan-diri-category">Pengembangan Diri</option>
+                     <option value="comic-category">Komik</option>
+                  </select>
+               </div>
+               <div class="form-group">
+                  <label for="search-product">Nama Buku</label>
+                  <input type="text" id="search-product" name="search-product" placeholder="Masukan nama buku yang ingin dipesan" autocomplete="off">
+               </div>
+               <div class="form-group">
+                  <label for="note">Catatan</label>
+                  <textarea name="note" id="note" rows="4" placeholder="Tulis catatan anda disini...."></textarea>
+               </div>
 
+               <button type="submit">Kirim Sekarang</button>
+            </form>
          </section>
 
       <!--==================== FOOTER ====================-->
