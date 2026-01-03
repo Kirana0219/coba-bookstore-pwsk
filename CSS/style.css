@@ -200,7 +200,7 @@ img {
     font-size: 1.25rem;
 }
 
-/* posisi dasar */
+/* posisi dropdown */
 .dropdown {
   position: relative;
 }
@@ -209,18 +209,28 @@ img {
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  left: 0;
   background: white;
   min-width: 180px;
   border-radius: 8px;
+  margin-top: 1em;
   padding: 8px 0;
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-
   opacity: 0;
   visibility: hidden;
   transform: translateY(10px);
   transition: 0.3s ease;
   z-index: 100;
+}
+
+/* dropdown filter & hamburger */
+#categoryFilter, #hamburgerMenu {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
+  background-color: var(--container-color);
+  font-size: var(--normal-font-size);
+  color: var(--title-color);
+  cursor: pointer;
 }
 
 /* item dropdown */
@@ -237,29 +247,10 @@ img {
 }
 
 /* tampil saat hover */
-.dropdown:hover .dropdown-menu {
+.dropdown-menu.open {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
-}
-
-
-/* Navigation for mobile devices */
-@media screen and (max-width: 1150px) {
-  .hide-mobile, .ri-arrow-down-s-line, .ri-bookmark-line, .ri-bard-line {
-    display: none;
-  }
-  .nav-menu{
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      width: 100%;
-      background-color: var(--container-color);
-      box-shadow: 0 -8px 32px rgba(0, 0, 0, .2);
-      padding: 1.25rem 4rem;
-      transition: background-color .4s;
-  }
 }
 
 .nav-list {
@@ -310,7 +301,6 @@ img {
 
 
 /*=============== SEARCH ===============*/
-
 .nav-actions i, 
 .search-wrapper {
   width: 20px;        
@@ -326,7 +316,6 @@ img {
   width: 25px;        
   overflow: hidden;
   border-radius: 50%;   
-  transition: width 0.4s ease, padding 0.4s ease;
   padding: 0;         
 }
 
@@ -337,7 +326,7 @@ img {
   background: transparent;
   padding: 0;
   margin-left: 5px;
-  transition: width 0.4s ease, padding 0.4s ease;
+  transition: width 0.4s ease, padding 0.2s ease;
 }
 
 /* Show search */
@@ -371,7 +360,8 @@ img {
 /*=============== HOME ===============*/
 .home-swiper {
   max-width: 760px;
-  margin:inline;
+  margin:initial;
+  overflow: 0;
 }
 
 .home-section{
@@ -476,19 +466,6 @@ img {
 
 .book-card:hover::after {
   opacity: 1;
-}
-
-/* Dropdown filter */
-#categoryFilter {
-  display: block;
-  margin: 0 auto 2.5rem auto;
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border: 1px solid var(--border-color);
-  background-color: var(--container-color);
-  font-size: var(--normal-font-size);
-  color: var(--title-color);
-  cursor: pointer;
 }
 
 /* Container buku */
@@ -993,6 +970,41 @@ button:hover {
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
+@media screen and (max-width: 768px) {
+  .nav {
+    margin: 0 1.5rem;
+  }
+
+  .hide-mobile, .ri-user-line {
+    display: none !important;
+  }
+
+  .dropdown-menu  {
+    right: 0;
+    margin-top: 0.5rem;
+  }
+  
+  .home-section{
+    margin: 5rem 1.5rem 0.5rem 1.5rem;
+  }
+
+  .section {
+    margin: 0;
+    padding-block: 2rem 1rem;
+  }
+
+  #new {
+    margin: 0 1.5rem;
+  }
+
+  .container-new-arrival, .container-recomendation{
+    margin: 0 1.5rem;
+  }
+
+  .container-recomendation {
+    margin: 0;
+  }
+}
 
 /* For medium devices */
 
@@ -1008,6 +1020,10 @@ button:hover {
     column-gap: 4rem;
   }
 
+  .hide, .ri-menu-line {
+    display: none;
+  }
+ 
   .nav-link i {
     display: none;
   }
