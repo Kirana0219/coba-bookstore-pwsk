@@ -541,7 +541,7 @@ img {
 
 /*=============== MODAL BOOK DETAIL ===============*/
 .modal {
-  display: none; 
+  display: none;
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.6);
@@ -603,9 +603,14 @@ img {
 
 /*=============== NEW ARRIVAL ===============*/
 .container-new-arrival{
-  
   margin: 0 96px;
 }
+
+.container-new-arrival,
+.container-recomendation {
+  position: relative;
+}
+
 
 
 /* ===== PANAH SLIDER ===== */
@@ -646,11 +651,26 @@ img {
   overflow-x: auto;
   scroll-behavior: smooth;
   padding: 1rem 0;
+
 }
 
 .book-container::-webkit-scrollbar {
   display: none;
 }
+
+/* ===== SLIDER BUKU (KHUSUS) ===== */
+.slider-books {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 1rem 0;
+}
+
+.slider-books::-webkit-scrollbar {
+  display: none;
+}
+
 
 /* ===== UKURAN CARD ===== */
 .book-card {
@@ -661,7 +681,7 @@ img {
 /* ===== PANAH ===== */
 .slide-btn {
   position: absolute;
-  top: 50%;
+  top: calc(50% + 24px); /* TRIK UTAMA */
   transform: translateY(-50%);
   width: 42px;
   height: 42px;
@@ -672,15 +692,20 @@ img {
   background-color: var(--container-color);
   color: var(--first-color);
   box-shadow: 0 4px 12px rgba(0,0,0,.2);
-  z-index: 10;
+  z-index: 20;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+
 .slide-left {
-  left: -20px;
+  left: 8px;
 }
 
 .slide-right {
-  right: -20px;
+  right: 8px;
 }
 
 .slide-btn:hover {
