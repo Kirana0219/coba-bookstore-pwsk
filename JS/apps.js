@@ -88,37 +88,44 @@ function updateTitle(category) {
 }
 
 
-  /* ================= MODAL BUKU ================= */
-  const modal = document.getElementById("bookModal");
-  const modalTitle = document.getElementById("modalTitle");
-  const modalAuthor = document.getElementById("modalAuthor");
-  const modalDesc = document.getElementById("modalDesc");
-  const modalPrice = document.getElementById("modalPrice");
-  const closeBtn = document.querySelector(".close-btn");
+  /* ================= MODAL BUKU  ================= */
+const modal = document.getElementById("bookModal");
+const modalTitle = document.getElementById("modalTitle");
+const modalAuthor = document.getElementById("modalAuthor");
+const modalDesc = document.getElementById("modalDesc");
+const modalPrice = document.getElementById("modalPrice");
+const closeBtn = document.querySelector(".close-btn");
 
-  bookCards.forEach(card => {
-    card.addEventListener("click", () => {
+document.addEventListener("click", function (e) {
+  const card = e.target.closest(".book-card");
+  if (!card) return;
 
-      modalTitle.textContent = card.querySelector(".book-title").textContent;
-      modalAuthor.textContent = card.querySelector(".book-author").textContent;
-      modalDesc.textContent = card.querySelector(".book-desc").textContent;
-      modalPrice.textContent = "Harga: " + card.querySelector(".book-price").textContent;
+  modalTitle.textContent =
+    card.querySelector(".book-title")?.textContent || "";
+  modalAuthor.textContent =
+    card.querySelector(".book-author")?.textContent || "";
+  modalDesc.textContent =
+    card.querySelector(".book-desc")?.textContent || "";
+  modalPrice.textContent =
+    card.querySelector(".book-price")?.textContent || "";
 
-      modal.style.display = "flex";
-    });
-  });
-
-  closeBtn.addEventListener("click", () => {
-    modal.style.display = "none";
-  });
-
-  modal.addEventListener("click", (e) => {
-    if (e.target === modal) {
-      modal.style.display = "none";
-    }
-  });
-
+  modal.style.display = "flex";
 });
+
+closeBtn.addEventListener("click", () => {
+  modal.style.display = "none";
+});
+
+modal.addEventListener("click", e => {
+  if (e.target === modal) modal.style.display = "none";
+});
+
+document.querySelectorAll(".slide-btn").forEach(btn => {
+  btn.addEventListener("click", e => e.stopPropagation());
+});
+});
+
+
 
 /*=============== CONTACT AND BUY ===============*/
 document.addEventListener("DOMContentLoaded", function () {
@@ -349,3 +356,5 @@ document.addEventListener("click", (e) => {
     hamburgerMenu.classList.remove("open");
   }
 });
+
+//comments 
