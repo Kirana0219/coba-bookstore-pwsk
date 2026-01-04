@@ -681,7 +681,7 @@ img {
 /* ===== PANAH ===== */
 .slide-btn {
   position: absolute;
-  top: calc(50% + 24px); /* TRIK UTAMA */
+  top: 50%;
   transform: translateY(-50%);
   width: 42px;
   height: 42px;
@@ -689,7 +689,7 @@ img {
   border: none;
   cursor: pointer;
   font-size: 20px;
-  background-color: var(--container-color);
+  background-color: var(--body-color);
   color: var(--first-color);
   box-shadow: 0 4px 12px rgba(0,0,0,.2);
   z-index: 20;
@@ -701,11 +701,13 @@ img {
 
 
 .slide-left {
-  left: 8px;
+  font-weight: bold;
+  left: -12px;
 }
 
 .slide-right {
-  right: 8px;
+  font-weight: bold;
+  right: -22px;
 }
 
 .slide-btn:hover {
@@ -716,7 +718,7 @@ img {
 
 /*=============== RECOMMENDATION ===============*/
 .container-recomendation{
-  margin: 0 96px;
+  margin:  0 96px;
 }
 /* Swiper class */
 
