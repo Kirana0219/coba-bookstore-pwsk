@@ -16,60 +16,70 @@ Penulis: Keigo Higashino
 Deskripsi:
 Black Showman merupakan novel misteri kriminal yang mengisahkan seorang mantan pesulap jalanan yang terlibat dalam penyelidikan kasus pembunuhan. Dengan kecerdikan, manipulasi psikologis, dan trik ilusi, tokoh utama mengungkap kebenaran di balik kejahatan yang tampak mustahil. Novel ini menonjolkan alur cerdas, penuh kejutan, dan kritik sosial yang tajam.
 Harga: Rp115.000
+Genre:Thriller
 
 2. Eccedentesiast
 Penulis: Bianca Sparacino
 Deskripsi:
 Eccedentesiast adalah kumpulan puisi dan prosa reflektif yang membahas perasaan kehilangan, keterasingan, dan proses menemukan makna hidup. Buku ini menggambarkan emosi manusia yang rapuh dengan bahasa puitis dan intim, mengajak pembaca berdamai dengan perubahan dan ketidaksempurnaan.
 Harga: Rp95.000
+Genre: Pengembangan Diri
 
 3. Educated
 Penulis: Tara Westover
 Deskripsi:
 Educated merupakan memoar tentang perjuangan seorang perempuan yang tumbuh dalam keluarga ekstrem dan terisolasi, lalu berusaha memperoleh pendidikan formal. Buku ini mengangkat tema identitas, kebebasan berpikir, dan konflik antara keluarga, keyakinan, serta ilmu pengetahuan.
 Harga: Rp125.000
+Genre: Pengembangan Diri
 
 4. Funiculi-Funicula
 Penulis: Toshikazu Kawaguchi
 Deskripsi:
 Buku ini melanjutkan kisah kafe legendaris yang memungkinkan pengunjung kembali ke masa lalu untuk waktu terbatas. Funiculi-Funicula menyuguhkan cerita-cerita emosional tentang penyesalan, cinta, dan harapan, dengan sentuhan magis dan filosofi kehidupan yang hangat.
 Harga: Rp99.000
+Genre: Romantis
 
 5. Home Sweet Loan
 Penulis: Almira Bastari
 Deskripsi:
 Home Sweet Loan mengisahkan realitas generasi muda yang terjebak dalam tekanan ekonomi, cicilan rumah, dan tuntutan sosial. Dengan gaya satir dan realistis, novel ini menggambarkan dilema antara impian, stabilitas finansial, dan makna “rumah” dalam kehidupan modern.
 Harga: Rp92.000
+Genre: Komedi
 
 6. Laut bercerita
 Penulis: Leila S. Chudori
 Deskripsi:
 Novel ini mengangkat kisah aktivis mahasiswa yang hilang pada masa Orde Baru. Laut Bercerita memadukan narasi personal dan sejarah kelam bangsa, menghadirkan tema perjuangan, cinta, kehilangan, dan ingatan kolektif dengan bahasa yang kuat dan emosional.
 Harga: Rp108.000
+Genre: Fiksi Sejarah
 
 7. Nebula
 Penulis: Tere Liye
 Deskripsi:
 Nebula merupakan bagian dari serial Bumi yang mengisahkan petualangan lanjutan para tokoh lintas dunia paralel. Buku ini memadukan unsur fiksi ilmiah, fantasi, dan nilai persahabatan, keberanian, serta pengorbanan.
 Harga: Rp95.000
+Genre: Fantasi
 
 8. Selena
 Penulis: Tere Liye
 Deskripsi:
 Selena merupakan novel prekuel dari serial Bumi yang mengisahkan masa kecil salah satu tokoh penting. Cerita menyoroti proses pembentukan karakter, konflik batin, dan pilihan hidup yang menentukan masa depan.
 Harga: Rp89.000
+Genre: Fantasi
 
 9. The Architecture of Love
 Penulis: Ika Natassa
 Deskripsi:
 Novel romantis ini berlatar Kota New York dan mengisahkan pertemuan dua individu dengan luka masa lalu. The Architecture of Love membahas cinta, kehilangan, dan proses penyembuhan emosional dengan gaya urban dan reflektif.
 Harga: Rp99.000
+Genre: Romantis
 
 10. The Midnight Library
 Penulis: Matt Haig
 Deskripsi:
 The Midnight Library mengisahkan seorang perempuan yang berada di perpustakaan metaforis antara hidup dan mati, di mana setiap buku merepresentasikan kehidupan alternatif. Novel ini mengeksplorasi penyesalan, pilihan hidup, dan makna kebahagiaan.
 Harga: Rp120.000
+Genre: Fantasi
 
 **Buku terbaru
 1. Kiri Sampai Sini
