@@ -125,7 +125,130 @@ document.querySelectorAll(".slide-btn").forEach(btn => {
 });
 });
 
+/*=============== CONTACT AND BUY ===============*/
+document.addEventListener("DOMContentLoaded", function () {
 
+    // Data produk berdasarkan kategori
+    const productData = {
+        "pengembangan-diri": [
+            "A Gentle Reminder",
+            "Atomic Habits",
+            "Designing Your Life",
+            "Filosofi Teras",
+            "Good Vibes Good Life",
+            "Good Vibes Good Life",
+            "Mindset",
+            "Sebuah Seni Untuk Bersikap Bodo Amat",
+            "The Mountain is You",
+            "Unlock Your Potential",
+        ],
+        "horor-category": [
+            "Heru Mahameru",
+            "Hunger Games",
+            "Perias Mayit",
+            "Pet Sematary",
+            "The Exorcist",
+            "The Living Hunger", 
+            "Uzumaki", 
+        ],
+        "romance-category": [
+            "Twilight",
+            "Septihan",
+            "Pride & Prejudice",
+            "Pergi",
+            "Perahu Kertas",
+            "Melodylan",
+            "Hujan",
+            "Galaksi",
+            "Dilan 1990", 
+            "Dilan 1991", 
+        ],
+        "fantasy-category": [
+            "As Long as The Lemon Trees Grow",
+            "Bumi",
+            "Bulan",
+            "Matahari",
+            "Bintang",
+            "Ceros dan Batozar",
+            "Komet",
+            "Funiculi-Funicula",
+            "Harry Potter ",
+            "Keajaiban Toko Kelontong Namiya",
+            "Kita Pergi Hari Ini",
+            "The Little Prince",
+        ],
+        "comedy-category": [
+            "Diary of a Wimpy Kid",
+            "Diary of a Wimpy Kid: Hard Luck",
+            "Diary of a Wimpy Kid: The Long Haul",
+            "Good Omens",
+            "How to Be a Woman",
+            "Manusia Setengah Salmon",
+            "Three Men in a Boat",
+        ],
+        "comic-category": [
+            "Bioskop Angker",
+            "Detective Conan 97",
+            "Detective Conan 01",
+            "Doraemon 01",
+            "Doraemon 10",
+            "Miko 32",
+            "Miko 33",
+            "Shinchan 14",
+            "Tantangan Mama",
+        ],
+    };
+
+    const categorySelect = document.getElementById("dropdown-category");
+    const searchProduct = document.getElementById("search-product");
+
+    // Buat elemen list hasil pencarian
+    const resultList = document.createElement("ul");
+    resultList.className = "search-product";
+    searchProduct.parentElement.appendChild(resultList);
+
+    // Event ketika user mengetik
+    searchProduct.addEventListener("input", function () {
+        const keyword = this.value.toLowerCase();
+        const category = categorySelect.value;
+
+        resultList.innerHTML = "";
+
+        if (keyword === "") return;
+
+        let products = [];
+
+        // Jika kategori dipilih, filter berdasarkan kategori
+        if (category && productData[category]){
+            products = productData[category];
+        } else {
+            // Jika tidak pilih kategori, ambil semua produk
+            products = Object.values(productData).flat();
+        }
+
+        const filteredProducts = products.filter(product =>
+            product.toLowerCase().includes(keyword)
+        );
+
+        filteredProducts.forEach(product => {
+            const li = document.createElement("li");
+            li.textContent = product;
+
+            li.addEventListener("click", function () {
+                searchProduct.value = product;
+                resultList.innerHTML = "";
+            });
+
+            resultList.appendChild(li);
+        });
+    });
+
+    document.addEventListener("click", function (e) {
+        if (!searchProduct.parentElement.contains(e.target)) {
+            resultList.innerHTML = "";
+        }
+    });
+});
 
 /*=============== SLIDER BOOKS ===============*/
 document.querySelectorAll(".book-container").forEach(container => {
